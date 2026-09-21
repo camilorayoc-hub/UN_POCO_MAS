@@ -1,9 +1,15 @@
+<<<<<<< HEAD
 // Assets/Scripts/IAPManager.cs
 using System.Collections;
 using UnityEngine;
 
 // Ajusta namespaces/clases según el plugin que instales
 // Este es un esqueleto conceptual: reemplaza PlayBillingClient por la API real del plugin.
+=======
+﻿using System.Collections;
+using UnityEngine;
+
+>>>>>>> work/merge-unrelated
 public class IAPManager : MonoBehaviour
 {
     public static IAPManager Instance;
@@ -24,15 +30,22 @@ public class IAPManager : MonoBehaviour
 
     void InitializeBilling()
     {
+<<<<<<< HEAD
         // Inicializa el cliente de facturación del plugin que instales
         Debug.Log("Inicializando facturación (reemplaza con la API del plugin)");
+=======
+        Debug.Log("Inicializando facturación (reemplazar con API del plugin que instales)");
+>>>>>>> work/merge-unrelated
     }
 
     public void BuyProduct(string productId)
     {
         Debug.Log($"Solicitando compra: {productId}");
+<<<<<<< HEAD
         // Lógica de compra: lanzar flujo de compra del plugin
         // Al completar, enviar purchaseToken al servidor para validación
+=======
+>>>>>>> work/merge-unrelated
     }
 
     IEnumerator ValidatePurchaseOnServer(string purchaseToken, string sku)

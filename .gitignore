@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Unity .gitignore Template
 # Source: https://github.com/github/gitignore/blob/main/Unity.gitignore
 # Last synced: 2026-07-02
@@ -14,12 +15,21 @@
 # See: https://github.com/github/gitignore/tree/main/Global
 #
 .utmp/
+=======
+﻿# Unity
+>>>>>>> work/merge-unrelated
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 UserSettings/
+<<<<<<< HEAD
+=======
+MemoryCaptures/
+
+# Visual Studio / Rider
+>>>>>>> work/merge-unrelated
 .vscode/
 *.csproj
 *.sln
@@ -27,6 +37,7 @@ UserSettings/
 *.userprefs
 *.pidb
 *.booproj
+<<<<<<< HEAD
 *.svd
 *.pdb
 *.mdb
@@ -124,3 +135,34 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+=======
+*.suo
+*.sdf
+*.cache
+*.ide
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+*.apk
+*.aab
+
+# Logs
+*.log
+
+# Unity packages / cache
+Packages/packages-lock.json
+Packages/PackageCache/
+Library/PackageCache/
+
+# Large binary assets (use Git LFS)
+*.psd
+*.png
+*.jpg
+*.wav
+*.mp4
+*.fbx
+*.unitypackage
+>>>>>>> work/merge-unrelated
