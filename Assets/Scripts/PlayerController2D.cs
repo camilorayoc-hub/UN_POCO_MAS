@@ -29,6 +29,6 @@ public class PlayerController2D : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.velocity = move;
+        rb.linearVelocity = move;
     }
 }

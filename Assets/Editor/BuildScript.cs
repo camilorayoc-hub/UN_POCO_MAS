@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 // Assets/Editor/BuildScript.cs
 using System;
-=======
-﻿using System;
->>>>>>> work/merge-unrelated
 using System.IO;
+using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
@@ -13,7 +10,6 @@ public static class BuildScript
     public static void BuildAndroidAAB()
     {
         string projectPath = Directory.GetCurrentDirectory();
-<<<<<<< HEAD
         string outputDir = Path.Combine(projectPath, "Builds", "android");
         Directory.CreateDirectory(outputDir);
         string outputPath = Path.Combine(outputDir, "app.aab");
@@ -23,16 +19,6 @@ public static class BuildScript
         string keystorePass = Environment.GetEnvironmentVariable("KEYSTORE_PASS") ?? "";
         string keyAlias = Environment.GetEnvironmentVariable("KEY_ALIAS") ?? "";
         string keyPass = Environment.GetEnvironmentVariable("KEY_PASS") ?? "";
-=======
-        string outputDir = Path.Combine(projectPath, ""Builds"", ""android"");
-        Directory.CreateDirectory(outputDir);
-        string outputPath = Path.Combine(outputDir, ""app.aab"");
-
-        string keystorePath = Environment.GetEnvironmentVariable(""KEYSTORE_PATH"") ?? """";
-        string keystorePass = Environment.GetEnvironmentVariable(""KEYSTORE_PASS"") ?? """";
-        string keyAlias = Environment.GetEnvironmentVariable(""KEY_ALIAS"") ?? """";
-        string keyPass = Environment.GetEnvironmentVariable(""KEY_PASS"") ?? """";
->>>>>>> work/merge-unrelated
 
         if (!string.IsNullOrEmpty(keystorePath))
         {
@@ -44,17 +30,14 @@ public static class BuildScript
         }
         else
         {
-<<<<<<< HEAD
-            Debug.LogWarning("No se encontró KEYSTORE_PATH. Usando configuración de PlayerSettings local.");
+            Debug.LogWarning("No se encontró KEYSTORE_PATH. Usando configuración local de PlayerSettings.");
         }
 
-        // Asegúrate de que las escenas estén listadas
-=======
-            Debug.LogWarning(""No se encontró KEYSTORE_PATH. Usando configuración local de PlayerSettings."");
-        }
-
->>>>>>> work/merge-unrelated
-        string[] scenes = Array.FindAll(EditorBuildSettings.scenes, s => s.enabled).ConvertAll(s => s.path).ToArray();
+        // Obtener rutas de escenas habilitadas usando LINQ y convertir a string[]
+        string[] scenes = EditorBuildSettings.scenes
+            .Where(s => s.enabled)
+            .Select(s => s.path)
+            .ToArray();
 
         var opts = new BuildPlayerOptions
         {
@@ -64,36 +47,13 @@ public static class BuildScript
             options = BuildOptions.None
         };
 
-<<<<<<< HEAD
-        // Forzar AAB
-=======
->>>>>>> work/merge-unrelated
-        PlayerSettings.Android.buildAppBundle = true;
+        // Forzar AAB (API compatible con más versiones de Unity)
+        EditorUserBuildSettings.buildAppBundle = true;
 
         var report = BuildPipeline.BuildPlayer(opts);
         if (report.summary.result == UnityEditor.Build.Reporting.BuildResult.Succeeded)
-<<<<<<< HEAD
             Debug.Log("Build AAB generado en: " + outputPath);
         else
             Debug.LogError("Build fallido: " + report.summary.result);
     }
-
-    // Helper extension to convert array
-=======
-            Debug.Log(""Build AAB generado en: "" + outputPath);
-        else
-            Debug.LogError(""Build fallido: "" + report.summary.result);
-    }
-
->>>>>>> work/merge-unrelated
-    private static string[] ConvertAll(this EditorBuildSettingsScene[] arr, Func<EditorBuildSettingsScene, string> selector)
-    {
-        string[] outArr = new string[arr.Length];
-        for (int i = 0; i < arr.Length; i++) outArr[i] = selector(arr[i]);
-        return outArr;
-    }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> work/merge-unrelated

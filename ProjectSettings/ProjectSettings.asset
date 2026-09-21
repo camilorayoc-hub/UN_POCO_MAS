@@ -4,11 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 30
-<<<<<<< HEAD
-  productGUID: 6f104db4c0fa88b4e8ccf04e5335e231
-=======
-  productGUID: a978d07d47216f0439b607d5a75ba49c
->>>>>>> work/merge-unrelated
+  productGUID: d9a0addf42db8f24fb2165b11df6b1e4
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -17,17 +13,10 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-<<<<<<< HEAD
-  productName: UN_POCO_MAS
-  defaultCursor: {fileID: 0}
-  cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.12156863, g: 0.12156863, b: 0.1254902, a: 1}
-=======
   productName: MyApp
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
->>>>>>> work/merge-unrelated
+  m_SplashScreenBackgroundColor: {r: 0.12156863, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
@@ -57,11 +46,7 @@ PlayerSettings:
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
-<<<<<<< HEAD
   m_ActiveColorSpace: 0
-=======
-  m_ActiveColorSpace: 1
->>>>>>> work/merge-unrelated
   unsupportedMSAAFallback: 0
   m_SpriteBatchMaxVertexCount: 65535
   m_SpriteBatchVertexThreshold: 300
@@ -98,11 +83,7 @@ PlayerSettings:
   androidMinimumWindowHeight: 300
   androidFullscreenMode: 1
   androidAutoRotationBehavior: 1
-<<<<<<< HEAD
   androidPredictiveBackSupport: 1
-=======
-  androidPredictiveBackSupport: 0
->>>>>>> work/merge-unrelated
   androidApplicationEntry: 2
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
@@ -182,30 +163,19 @@ PlayerSettings:
   useHDRDisplay: 0
   hdrBitDepth: 0
   m_ColorGamuts: 00000000i
-<<<<<<< HEAD
-  targetPixelDensity: 0
-=======
   targetPixelDensity: 30
->>>>>>> work/merge-unrelated
   resolutionScalingMode: 0
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.4
   androidMinAspectRatio: 1
-<<<<<<< HEAD
   applicationIdentifier: {}
-  buildNumber: {}
-  overrideDefaultApplicationIdentifier: 0
-=======
-  applicationIdentifier:
-    Standalone: com.DefaultCompany.2D-URP
   buildNumber:
     Standalone: 0
     VisionOS: 0
     iPhone: 0
     tvOS: 0
-  overrideDefaultApplicationIdentifier: 1
->>>>>>> work/merge-unrelated
+  overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 26
   AndroidTargetSdkVersion: 0
@@ -225,15 +195,6 @@ PlayerSettings:
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
   iOSSimulatorArchitecture: 0
-<<<<<<< HEAD
-  iOSTargetOSVersionString: 
-  tvOSSdkVersion: 0
-  tvOSSimulatorArchitecture: 0
-  tvOSRequireExtendedGameController: 0
-  tvOSTargetOSVersionString: 
-  VisionOSSdkVersion: 0
-  VisionOSTargetOSVersionString: 
-=======
   iOSTargetOSVersionString: 15.0
   tvOSSdkVersion: 0
   tvOSSimulatorArchitecture: 0
@@ -241,7 +202,6 @@ PlayerSettings:
   tvOSTargetOSVersionString: 15.0
   VisionOSSdkVersion: 0
   VisionOSTargetOSVersionString: 1.0
->>>>>>> work/merge-unrelated
   xcodeProjectType: 0
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
@@ -298,15 +258,9 @@ PlayerSettings:
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
   shaderPrecisionModel: 0
-<<<<<<< HEAD
   clonedFromGUID: 00000000000000000000000000000000
   templatePackageId: 
   templateDefaultScene: 
-=======
-  clonedFromGUID: c19f32bac17ee4170b3bf8a6a0333fb9
-  templatePackageId: com.unity.template.universal-2d@7.0.0
-  templateDefaultScene: Assets/Scenes/SampleScene.unity
->>>>>>> work/merge-unrelated
   useCustomMainManifest: 0
   useCustomLauncherManifest: 0
   useCustomMainGradleTemplate: 0
@@ -340,14 +294,7 @@ PlayerSettings:
   AndroidMinifyRelease: 0
   AndroidMinifyDebug: 0
   AndroidValidateAppBundleSize: 1
-<<<<<<< HEAD
   AndroidAppBundleSizeToValidate: 200
-  AndroidReportGooglePlayAppDependencies: 1
-  androidSymbolsSizeThreshold: 800
-  m_BuildTargetIcons: []
-  m_BuildTargetPlatformIcons: []
-=======
-  AndroidAppBundleSizeToValidate: 150
   AndroidReportGooglePlayAppDependencies: 1
   androidSymbolsSizeThreshold: 800
   m_BuildTargetIcons: []
@@ -384,7 +331,6 @@ PlayerSettings:
       m_Height: 81
       m_Kind: 2
       m_SubKind: 
->>>>>>> work/merge-unrelated
   m_BuildTargetBatching: []
   m_BuildTargetShaderSettings: []
   m_BuildTargetGraphicsJobs: []
@@ -398,10 +344,7 @@ PlayerSettings:
   m_TemplateCustomTags: {}
   mobileMTRendering:
     Android: 1
-<<<<<<< HEAD
     VisionOS: 1
-=======
->>>>>>> work/merge-unrelated
     iPhone: 1
     tvOS: 1
   m_BuildTargetGroupLightmapEncodingQuality: []
@@ -421,11 +364,7 @@ PlayerSettings:
   locationUsageDescription: 
   microphoneUsageDescription: 
   bluetoothUsageDescription: 
-<<<<<<< HEAD
-  macOSTargetOSVersion: 
-=======
   macOSTargetOSVersion: 12.0
->>>>>>> work/merge-unrelated
   switchNMETAOverride: 
   switchNetLibKey: 
   switchSocketMemoryPoolSize: 6144
@@ -550,11 +489,7 @@ PlayerSettings:
   switchSystemResourceMemory: 16777216
   switchSupportedNpadStyles: 22
   switchNativeFsCacheSize: 32
-<<<<<<< HEAD
   switchIsHoldTypeHorizontal: 1
-=======
-  switchIsHoldTypeHorizontal: 0
->>>>>>> work/merge-unrelated
   switchSupportedNpadCount: 8
   switchEnableTouchScreen: 1
   switchSocketConfigEnabled: 0
@@ -568,11 +503,7 @@ PlayerSettings:
   switchSocketInitializeEnabled: 1
   switchNetworkInterfaceManagerInitializeEnabled: 1
   switchDisableHTCSPlayerConnection: 0
-<<<<<<< HEAD
   switchUseNewStyleFilepaths: 1
-=======
-  switchUseNewStyleFilepaths: 0
->>>>>>> work/merge-unrelated
   switchUseLegacyFmodPriorities: 0
   switchUseMicroSleepForYield: 1
   switchEnableRamDiskSupport: 0
@@ -672,11 +603,7 @@ PlayerSettings:
   webGLTemplate: APPLICATION:Default
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
-<<<<<<< HEAD
   webGLCompressionFormat: 1
-=======
-  webGLCompressionFormat: 0
->>>>>>> work/merge-unrelated
   webGLWasmArithmeticExceptions: 0
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
@@ -691,22 +618,14 @@ PlayerSettings:
   webGLWebAssemblyTable: 0
   webGLWebAssemblyBigInt: 0
   webGLCloseOnQuit: 0
-<<<<<<< HEAD
   webWasm2023: 1
-=======
-  webWasm2023: 0
->>>>>>> work/merge-unrelated
   webEnableSubmoduleStrippingCompatibility: 0
   webProgressiveAssetLoading: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Standalone: SENTIS_ANALYTICS_ENABLED
   additionalCompilerArguments: {}
   platformArchitecture: {}
-<<<<<<< HEAD
   scriptingBackend: {}
-=======
-  scriptingBackend:
-    Android: 1
->>>>>>> work/merge-unrelated
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration: {}
   il2cppLTOMode: {}
@@ -725,22 +644,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-<<<<<<< HEAD
-  metroPackageName: UN_POCO_MAS
-=======
   metroPackageName: MyApp
->>>>>>> work/merge-unrelated
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-<<<<<<< HEAD
-  metroApplicationDescription: UN_POCO_MAS
-=======
   metroApplicationDescription: MyApp
->>>>>>> work/merge-unrelated
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -801,18 +712,13 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   hmiPlayerDataPath: 
-<<<<<<< HEAD
   hmiForceSRGBBlit: 0
-=======
-  hmiForceSRGBBlit: 1
->>>>>>> work/merge-unrelated
   embeddedLinuxEnableGamepadInput: 0
   hmiCpuConfiguration: 
   hmiLogStartupTiming: 0
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-<<<<<<< HEAD
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
   enableDirectStorage: 0
@@ -821,16 +727,6 @@ PlayerSettings:
   qualitySettingsNames: []
   projectName: 
   organizationId: 
-=======
-  activeInputHandler: 1
-  windowsGamepadBackendHint: 0
-  enableDirectStorage: 0
-  cloudProjectId: 8764e1fd-adfa-4b29-8550-a356faffb4b1
-  framebufferDepthMemorylessMode: 0
-  qualitySettingsNames: []
-  projectName: MyApp
-  organizationId: jcrayo26
->>>>>>> work/merge-unrelated
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

@@ -6,18 +6,12 @@ MemorySettings:
   m_EditorMemorySettings:
     m_MainAllocatorBlockSize: -1
     m_ThreadAllocatorBlockSize: -1
-<<<<<<< HEAD
     m_MainAllocatorMimallocEnabled: -1
-=======
->>>>>>> work/merge-unrelated
     m_MainGfxBlockSize: -1
     m_ThreadGfxBlockSize: -1
     m_CacheBlockSize: -1
     m_TypetreeBlockSize: -1
-<<<<<<< HEAD
     m_RemapperInitialCapacity: -1
-=======
->>>>>>> work/merge-unrelated
     m_ProfilerBlockSize: -1
     m_ProfilerEditorBlockSize: -1
     m_BucketAllocatorGranularity: -1
@@ -40,8 +34,4 @@ MemorySettings:
     m_TempAllocatorSizeJobWorker: -1
     m_TempAllocatorSizeBackgroundWorker: -1
     m_TempAllocatorSizePreloadManager: -1
-<<<<<<< HEAD
   m_PlatformMemorySettings: []
-=======
-  m_PlatformMemorySettings: {}
->>>>>>> work/merge-unrelated
