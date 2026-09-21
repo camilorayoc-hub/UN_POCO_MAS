@@ -41,9 +41,7 @@
     "com.unity.ai.assistant": "2.19.0-pre.2",
     "com.unity.ai.inference": "2.6.1",
     "com.unity.pipeline": "0.7.0-exp.1",
-    "com.unity.addressables": "1.22.1",
     "com.unity.ads": "4.0.0",
-    "com.unity.editor-pipelines": "1.0.0",
     "com.unity.collections": "1.6.0",
     "com.unity.test-framework": "1.4.0"
   }
