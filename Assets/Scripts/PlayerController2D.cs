@@ -11,8 +11,8 @@ public class PlayerController2D : MonoBehaviour
 
     void Update()
     {
-        float h = Input.GetAxisRaw(""Horizontal"");
-        float v = Input.GetAxisRaw(""Vertical"");
+        float h = Input.GetAxisRaw("Horizontal");
+        float v = Input.GetAxisRaw("Vertical");
         move = new Vector2(h, v).normalized * speed;
 
         if (Input.touchCount > 0)
@@ -29,6 +29,6 @@ public class PlayerController2D : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.velocity = move;
+        rb.linearVelocity = move;
     }
 }
